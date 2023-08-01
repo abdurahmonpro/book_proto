@@ -8,7 +8,7 @@ import "google/protobuf/empty.proto";
 import "google/protobuf/struct.proto";
 
 service UserService {
-    rpc CreateUser(CreateUser) returns (User) {}
-    rpc GetUserByID(UserPK) returns (User) {}
-    rpc GetUserListByIDs(UserListRequest) returns (UserListResponse) {}
+    rpc Create(CreateUser) returns (User) {}
+    rpc GetByID(UserPK) returns (User) {}
+    rpc GetUserList(UserListRequest) returns (UserListResponse) {}
 }

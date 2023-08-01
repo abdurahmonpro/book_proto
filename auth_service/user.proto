@@ -12,7 +12,7 @@ message User {
     string secret = 5;
 }
 
-message CreateUser {
+message CreateUser{
     string name = 1;
     string email = 2;
     string key = 3;
