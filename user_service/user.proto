@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-package auth_service;
-option go_package="genproto/auth_service";
+package user_service;
+option go_package="genproto/user_service";
 
 message User {
     string id = 1;
