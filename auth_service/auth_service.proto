@@ -8,5 +8,4 @@ import "auth.proto";
 
 service AuthService {
     rpc Login(LoginRequest) returns (TokenResponse) {}
-    
 }
