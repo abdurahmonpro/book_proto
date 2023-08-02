@@ -34,3 +34,4 @@ message UserListResponse {
     int32 count = 1;
     repeated User users = 2;
 }
+
