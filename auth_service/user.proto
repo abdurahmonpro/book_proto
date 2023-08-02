@@ -24,8 +24,14 @@ message UserPK {
     string id = 1;
 }
 
-message GetUserByName {
+message CheckUserRequest {
     string name = 1;
+    string secret = 2;
+}
+
+message CheckUserResponse{
+    bool exists = 1;
+    bool registered = 2;
 }
 
 message UserListRequest{
